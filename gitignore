@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyd
+*.pyo
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+.env/
+.venv/
+ENV/
+
+# Streamlit
+.streamlit/
+
+# System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.
