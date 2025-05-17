@@ -40,3 +40,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+    try:
+    import cv2
+    import numpy as np
+except ImportError as e:
+    import streamlit as st
+    st.error(f"Failed to import required packages: {e}")
+    st.stop()  # Prevent the app from running without dependencies
